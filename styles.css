@@ -3,13 +3,17 @@ h1 {
 }
 
 body {
-
-    background: rgb(140, 6, 41);
+    background-image: url(Fondo-para-Paina-02.jpg);
+    /* background: rgb(140, 6, 41);
     background: -moz-linear-gradient(180deg, rgba(140, 6, 41, 1) 0%, rgba(83, 5, 72, 1) 51%, rgba(8, 3, 113, 1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(140, 6, 41, 1) 0%, rgba(83, 5, 72, 1) 51%, rgba(8, 3, 113, 1) 100%);
     background: linear-gradient(180deg, rgba(140, 6, 41, 1) 0%, rgba(83, 5, 72, 1) 51%, rgba(8, 3, 113, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c0629", endColorstr="#080371", GradientType=1);
-    background-attachment: fixed;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c0629", endColorstr="#080371", GradientType=1); */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* padding-bottom: 30%; */
 }
 
 .pic-frame {
@@ -24,8 +28,9 @@ body {
     /* align-items: center; */
 }
 
+
 /* .pic-frame {
-    margin: auto;
+    position: absolute;
 } */
 
 .social-icon {
@@ -55,4 +60,8 @@ h2 {
     margin-bottom: 0px;
     text-align: center;
     color: white;
+}
+
+.last {
+    margin-bottom: 2rem;
 }
