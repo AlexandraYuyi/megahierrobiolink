@@ -15,7 +15,7 @@ body {
 .pic-frame {
     display: flex;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 0.1rem;
     height: 10rem;
     width: 10rem;
     /* background-color: black;
@@ -31,10 +31,28 @@ body {
 .social-icon {
     width: 1.875rem;
     height: auto;
+    margin: 0 1rem;
+    border: 0.125rem;
+    border-color: transparent;
+    transition-duration: 0.3s;
+}
+
+.social-icon:hover {
+    border: 0px;
+    width: 3rem;
+    height: auto;
+    margin: 0 1rem;
 }
 
 .btn-light {
     width: 50%;
     padding: 0.7rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
 }
