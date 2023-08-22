@@ -59,7 +59,6 @@ body {
     width: 4vw;
     height: auto;
     margin: 0 1rem;
-    border: 0.125rem;
     border-color: transparent;
     transition-duration: 0.3s;
 
@@ -70,7 +69,6 @@ body {
     width: 6vw;
     height: auto;
     margin: 0 1rem;
-    border: 0.3rem;
     border-color: transparent;
     transition-duration: 0.3s;
 
@@ -100,7 +98,7 @@ h2 {
 
 
 .cont-logo {
-    margin-top: 8%;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -112,13 +110,13 @@ h2 {
 }
 
 .first{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .btn-light {
-    width: 50%;
-    padding: 0.5rem;
-    margin-top: 1rem;
+    width: 80%;
+    padding: 2%;
+    margin-top: 2%;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bolder;
     background-color: #ff0000;
