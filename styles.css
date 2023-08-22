@@ -11,7 +11,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     height: 100%;
-    width: 80vw;
+    width: 80%;
     margin: 1rem auto;
     padding: 0 2rem;
 }
@@ -20,8 +20,8 @@ body {
     object-fit: contain;
     display: flex;
     margin: auto;
-    padding-top: 1rem;
-    margin-top: 1rem;
+    padding-top: 5%;
+    margin-top: 5%;
     width: 90%;
     justify-content: center;
 }
@@ -42,7 +42,6 @@ body {
 }
 
 .wrapper{
-    margin: 5% 0 10% 0;
     display: flex;
     justify-content: center;
 
@@ -57,7 +56,6 @@ body {
 
 .social-icon {
     max-width: 64px;
-    max-width: 64px;
     width: 4vw;
     height: auto;
     margin: 0 1rem;
@@ -68,8 +66,7 @@ body {
 }
 
 .social-icon-ml {
-    max-width: 64px;
-    max-width: 64px;
+    max-width: 70px;
     width: 6vw;
     height: auto;
     margin: 0 1rem;
@@ -89,28 +86,29 @@ body {
 
 .social-icon-ml:hover {
     border: 0px;
-    width: 7vw;
+    width: 8vw;
     height: auto;
     margin: 0 1rem;
 
 }
 
 h2 {
-    margin-top: 2rem;
     margin-bottom: 0px;
     text-align: center;
-    color: #000;
-    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
-             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    color: #FFF;
 }
 
-.mitad1{
-    color: #080371;
-    
+
+.cont-logo {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.mitad2{
-    color: #ff0516;
+.logo{
+    height: 3vw;
+    width: auto;
 }
 
 .btn-light {
@@ -140,5 +138,5 @@ h2 {
 
 
 .last {
-    margin-bottom: 2rem;
+    padding-bottom: 3rem;
 }
