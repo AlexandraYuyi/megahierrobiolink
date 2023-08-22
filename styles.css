@@ -82,17 +82,17 @@ body {
 
 }
 
-.social-icon-ml:hover {
+/* .social-icon-ml:hover {
     border: 0px;
     width: 5vw;
     height: auto;
     margin: 0 1rem;
 
-}
+} */
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vh;
+    font-size: 3vmin;
     letter-spacing: 0.2vh;
     margin-bottom: 0px;
     text-align: center;
