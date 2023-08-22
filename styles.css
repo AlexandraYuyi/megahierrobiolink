@@ -86,7 +86,7 @@ body {
 
 .social-icon-ml:hover {
     border: 0px;
-    width: 6.5vw;
+    width: 5vw;
     height: auto;
     margin: 0 1rem;
 
@@ -112,7 +112,7 @@ h2 {
 }
 
 .first{
-    margin-top: 2rem;
+    margin-top: 5%;
 }
 
 .btn-light {
