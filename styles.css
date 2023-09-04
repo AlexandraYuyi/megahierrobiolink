@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(Fondo-para-paginja-wep-002.jpg);
+    background-image: url(Fondo-para-paginja-wep-002-min.jpg);
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
@@ -42,6 +42,8 @@ body {
 }
 
 .wrapper{
+    width: 30%;
+    margin: auto;
     display: flex;
     justify-content: center;
 
@@ -63,7 +65,7 @@ body {
 }
 
 .social-icon-ml {
-    width: 6vw;
+    width: 5.8vw;
     height: auto;
     margin: 0 1rem;
     border-color: transparent;
