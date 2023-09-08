@@ -4,7 +4,7 @@
     }
 
     .slogan-div {
-        padding-bottom: 7vmax;
+        padding-bottom: 5vmax;
     }
   }
 
@@ -14,7 +14,7 @@
     }
 
     .slogan-div {
-        padding-bottom: 5vmax;
+        padding-bottom: 3vmax;
     }
   }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .slogan-div {
-    padding-bottom: 10vmax;
+    padding-bottom: 12vmin;
     margin: auto;
     width: 100%;
     justify-content: center;
