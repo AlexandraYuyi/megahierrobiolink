@@ -35,6 +35,7 @@ body {
     width: 80%;
     margin: 1rem auto;
     padding: 0 2rem;
+    max-width: 700px;
 }
 
 .pic-frame {
@@ -42,7 +43,7 @@ body {
     display: flex;
     margin: auto;
     padding-top: 5%;
-    margin-top: 5%;
+    margin: 5% 0;
     width: 100%;
     justify-content: center;
 }
@@ -62,6 +63,8 @@ body {
 
 h1{
     position: relative;
+    max-width: 560;
+    min-width: 190;
 }
 
 h1>span{
@@ -81,6 +84,8 @@ h1>span{
     background:linear-gradient(#666666,#eaeaea,#505050);
     -webkit-background-clip: text;
     color:transparent;
+    max-width: 560;
+    min-width: 190;
   }
   h1>span:nth-child(1)
   {
@@ -99,6 +104,7 @@ h1>span{
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 
 }
 
@@ -114,6 +120,7 @@ h1>span{
     margin: 0 1rem;
     border-color: transparent;
     transition-duration: 0.3s;
+    max-width: 80px;
 
 }
 
@@ -125,6 +132,13 @@ h1>span{
     transition-duration: 0.3s;
 
 }
+/* 
+.social-icon:hover{
+    border: 0px;
+    width: 5vw;
+    height: auto;
+    margin: 0 1rem;
+} */
 
 .columna:hover{
     margin: 0 auto;
@@ -183,16 +197,18 @@ h2 {
 }
 
 .btn-light {
-    width: 80%;
+    width:80%;
+    max-width: 500px;
     padding: 2%;
     margin-top: 2%;
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-weight: bold;
-    font-size: 2.2vmax;
+    font-size: 2.5vw;
     letter-spacing: 0.2vh;
     background-color: #ff0000;
     border-color: #000;
     color: white;
+    
 }
 
 .btn-light:hover{
