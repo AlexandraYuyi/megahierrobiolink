@@ -141,7 +141,7 @@ h1>span{
 } */
 
 .columna:hover{
-    margin: 0 auto;
+    margin: 1vw auto;
     transition-duration: 0.5s;
 }
 
